@@ -52,7 +52,6 @@ nav{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: auto 0.5rem;
 }
 
 .card{
@@ -66,7 +65,6 @@ width: 100%;
 
   .logo{
     width: 15rem;
-   
   }
 
 
@@ -75,7 +73,7 @@ width: 100%;
   width: 100%;
   display: flex;
   justify-content: center;
-  min-width: 290px;
+  min-width: 261px;
 }
 
 .bottle{
