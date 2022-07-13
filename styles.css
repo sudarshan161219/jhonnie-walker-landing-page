@@ -1,0 +1,84 @@
+:root {
+    --color-:#D6A322;
+    --color-:#F2F2F2 ;
+    --color-:#FCBA13 ;
+    --color-:#222222 ;
+    --color-:#24221C ;
+    --color-:#444444 ;
+    --color-:#CCCCCC ;
+    --color-: hsl(0, 0%, 100%);
+    --color-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+  }
+  
+  *, *::after, ::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+  }
+  
+  @page {
+    size: auto;
+    margin: 0;
+}
+
+  body {
+    display: flex;
+     margin: 1.5rem 1rem;
+    flex-direction: column;
+    /* justify-content: center; */
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(159.66deg, rgba(34, 34, 34, 0.8) 27.04%, #111111 74.62%), url(images/mobile-bg-red-label.png)  ;
+/* background-position: 10px; */
+background-repeat: no-repeat;
+
+
+  }
+
+
+  /* .container{
+    position: relative;
+  } */
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto 0.5rem;
+}
+
+.card{
+  margin-top: 5rem;
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+}
+
+
+  .logo{
+    width: 15rem;
+   
+  }
+
+
+
+.bottle-card{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  min-width: 290px;
+}
+
+.bottle{
+  width: 500px;
+  margin-left: 5rem;
+}
